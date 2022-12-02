@@ -12,5 +12,8 @@ namespace Modelo.Cadastros
         public string Nome { get; set; }
         public int Idade { get; set; }
         public string Sexo { get; set; }
+
+        //public Cliente cliente { get; set; }
+        //public int ClienteId { get; set; }
     }
 }
