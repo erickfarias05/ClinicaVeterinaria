@@ -61,6 +61,7 @@
     <Compile Include="Cadastros\Exame.cs" />
     <Compile Include="Cadastros\Pet.cs" />
     <Compile Include="Cadastros\Usuario.cs" />
+    <Compile Include="Cadastros\Veterinario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

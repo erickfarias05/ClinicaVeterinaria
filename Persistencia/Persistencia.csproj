@@ -62,6 +62,7 @@
     <Compile Include="DAL\ExameDAL.cs" />
     <Compile Include="DAL\PetDAL.cs" />
     <Compile Include="DAL\UsuarioDAL.cs" />
+    <Compile Include="DAL\VeterinarioDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

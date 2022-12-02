@@ -61,6 +61,7 @@
     <Compile Include="Cadastros\ExameServico.cs" />
     <Compile Include="Cadastros\PetServico.cs" />
     <Compile Include="Cadastros\UsuarioServico.cs" />
+    <Compile Include="Cadastros\VeterinarioServico.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

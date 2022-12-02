@@ -22,6 +22,7 @@ namespace Persistencia.Contexts
         public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<Pet> Pets { get; set; }
 
+        public DbSet<Veterinario> Veterinarios { get; set; }
         public DbSet<Cliente> Clientes { get; set; }
     }
 }

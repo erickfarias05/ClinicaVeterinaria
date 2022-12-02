@@ -106,6 +106,7 @@
     <Compile Include="Controllers\ExamesController.cs" />
     <Compile Include="Controllers\PetsController.cs" />
     <Compile Include="Controllers\UsuariosController.cs" />
+    <Compile Include="Controllers\VeterinariosController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -144,6 +145,11 @@
     <Content Include="Views\Clientes\Edit.cshtml" />
     <Content Include="Views\Clientes\Details.cshtml" />
     <Content Include="Views\Clientes\Delete.cshtml" />
+    <Content Include="Views\Veterinarios\Index.cshtml" />
+    <Content Include="Views\Veterinarios\Create.cshtml" />
+    <Content Include="Views\Veterinarios\Edit.cshtml" />
+    <Content Include="Views\Veterinarios\Details.cshtml" />
+    <Content Include="Views\Veterinarios\Delete.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
