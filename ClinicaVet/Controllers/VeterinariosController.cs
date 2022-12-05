@@ -96,7 +96,7 @@ namespace ClinicaVeterinaria.Controllers
             try
             {
                 Veterinario veterinario = veterinariosServico.EliminarVeterinarioPorId(id);
-                TempData["Message"] = "Veterinario" + veterinario.cmv + " foi removido";
+                TempData["Message"] = "Veterinario" + veterinario.crmv + " foi removido";
                 return RedirectToAction("Index");
             }
             catch

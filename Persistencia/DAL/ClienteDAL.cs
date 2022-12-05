@@ -19,7 +19,7 @@ namespace Persistencia.DAL.Cadastros
 
         public Cliente ObterClientePorId(long id)
         {
-            return context.Clientes.Where(p => p.ClienteId == id).Include(c => c.PetId).First();
+            return context.Clientes.Where(p => p.ClienteId == id).First();
         }
 
         public void GravarCliente(Cliente cliente)

@@ -13,7 +13,7 @@ namespace Modelo.Cadastros
         public int Idade { get; set; }
         public string Sexo { get; set; }
 
-        //public Cliente cliente { get; set; }
-        //public int ClienteId { get; set; }
+        public Cliente cliente { get; set; }
+        public int ClienteId { get; set; }
     }
 }

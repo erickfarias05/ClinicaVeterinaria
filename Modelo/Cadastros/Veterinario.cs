@@ -10,6 +10,8 @@ namespace Modelo.Cadastros
     {
         public long VeterinarioId { get; set; } 
 
-        public string cmv { get; set; }
+        public string crmv { get; set; }
+        public Usuario usuario { get; set; }
+        public long? UsuarioId { get; set; }
     }
 }

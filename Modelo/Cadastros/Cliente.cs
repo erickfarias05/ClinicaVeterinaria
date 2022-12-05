@@ -12,9 +12,11 @@ namespace Modelo.Cadastros
         public long ClienteId { get; set; }
 
         public string cpf { get; set; }
+        public Usuario usuario { get; set; }
+        public long? UsuarioId { get; set; }
 
-        public Pet pet { get; set; }
-        public int PetId { get; set; }
+        //public Pet pet { get; set; }
+        //public int PetId { get; set; }
 
     }
 }

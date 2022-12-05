@@ -15,7 +15,7 @@ namespace Persistencia.DAL
 
         public IQueryable<Veterinario> ObterVeterinariosClassificadosPorCMV()
         {
-            return context.Veterinarios.OrderBy(n => n.cmv);
+            return context.Veterinarios.OrderBy(n => n.crmv);
         }
 
         public Veterinario ObterVeterinarioPorId(long id)
