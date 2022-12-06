@@ -26,6 +26,12 @@
             <th>
                 @Html.DisplayNameFor(model => model.ExameId)
             </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VeterinarioId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PetId)
+            </th>
             <th></th>
         </tr>
     
@@ -39,6 +45,12 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.ExameId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VeterinarioId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PetId)
             </td>
             <td>
                 @Html.ActionLink("Edit", "Edit", new { id=item.ConsultaId }) |

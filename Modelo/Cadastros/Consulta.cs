@@ -16,5 +16,9 @@ namespace Modelo.Cadastros
 
         public long? ExameId { get; set; }
         public Exame Exame { get; set; }
+        public long? VeterinarioId { get; set; }
+        public Veterinario veterinario { get; set; }
+        public long? PetId { get; set; }
+        public Pet pet { get; set; }
     }
 }

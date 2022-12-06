@@ -120,11 +120,6 @@
     <Content Include="Views\Exames\Edit.cshtml" />
     <Content Include="Views\Exames\Details.cshtml" />
     <Content Include="Views\Exames\Delete.cshtml" />
-    <Content Include="Views\Consultas\Index.cshtml" />
-    <Content Include="Views\Consultas\Create.cshtml" />
-    <Content Include="Views\Consultas\Edit.cshtml" />
-    <Content Include="Views\Consultas\Details.cshtml" />
-    <Content Include="Views\Consultas\Delete.cshtml" />
     <Content Include="Views\Especies\Index.cshtml" />
     <Content Include="Views\Especies\Create.cshtml" />
     <Content Include="Views\Especies\Edit.cshtml" />
@@ -150,6 +145,11 @@
     <Content Include="Views\Veterinarios\Edit.cshtml" />
     <Content Include="Views\Veterinarios\Details.cshtml" />
     <Content Include="Views\Veterinarios\Delete.cshtml" />
+    <Content Include="Views\Consultas\Index.cshtml" />
+    <Content Include="Views\Consultas\Create.cshtml" />
+    <Content Include="Views\Consultas\Edit.cshtml" />
+    <Content Include="Views\Consultas\Details.cshtml" />
+    <Content Include="Views\Consultas\Delete.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
